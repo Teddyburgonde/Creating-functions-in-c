@@ -18,7 +18,7 @@ int	main(void)
 	int	********ptr8;
 	int	*********ptr9;
 
-	a = 8;
+	a = 5;
 	ptr1 = &a;
 	ptr2 = &ptr1;
 	ptr3 = &ptr2;
@@ -28,7 +28,7 @@ int	main(void)
 	ptr7 = &ptr6;
 	ptr8 = &ptr7;
 	ptr9 = &ptr8;
-	printf("la valeur de a = %d\n", a);
+	printf("La valeur de a = %d\n", a);
 	ft_ultimate_ft(ptr9);
-	printf("la nouvelle valeur de a = %d\n", a);
+	printf("La nouvelle valeur de a = %d\n", a);
 }
