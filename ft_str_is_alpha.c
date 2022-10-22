@@ -20,6 +20,6 @@ int	main(void)
 {
 	char	*test;
 
-	test = "salut";
+	test = "Salut";
 	printf("%d", ft_str_is_alpha(test));
 }
