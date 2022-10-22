@@ -11,7 +11,7 @@ int	main(void)
 	int	a;
 	int	b;
 
-	a = 11;
+	a = 13;
 	b = 2;
 	printf("La division de %d par %d = ", a, b);
 	ft_ultimate_div_mod(&a, &b);
