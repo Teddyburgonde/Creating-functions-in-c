@@ -7,11 +7,12 @@ void	ft_print_alphabet(void)
 	alphabet = 'a';
 	while (alphabet <= 'z')
 	{
-		write(1,&alphabet,1);
+		write(1, &alphabet, 1);
 		alphabet++;
 	}
 }
-int main()
+
+int	main(void)
 {
 	ft_print_alphabet();
 }
