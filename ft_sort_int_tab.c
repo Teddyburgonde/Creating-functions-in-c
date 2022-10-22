@@ -37,7 +37,7 @@ int	main(void)
 {
 	int	size;
 	int	l;
-	int	nombre[] = {2, 1, 6, 9, 3, 5, 10, 4, 8, 7};
+	int	nombre[] = {2, 1, 9, 6, 3, 5, 10, 4, 8, 7};
 
 	size = 9;
 	ft_sort_int_tab(nombre, size);
