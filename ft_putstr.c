@@ -14,6 +14,6 @@ void	ft_putstr(char *str)
 
 int	main(void)
 {
-	char	phrase[15] = "Salut les amis";
+	char	phrase[20] = "Salut les amis";
 	ft_putstr(phrase);
 }
