@@ -16,5 +16,5 @@ int	main(void)
 {
 	char	mot[] = "bonjour";
 
-	printf("le nombre de lettre dans %s est : %d", mot, ft_strlen(mot));
+	printf("Le nombre de lettres dans %s est : %d", mot, ft_strlen(mot));
 }
