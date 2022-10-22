@@ -16,6 +16,6 @@ int	main(void)
 	a = 10;
 	b = 2;
 	ft_div_mod(a, b, &div, &mod);
-	printf("a = %di\n", div)
-	printf("a = %di\n", mod);
+	printf("a = %d\n", div);
+	printf("a = %d\n", mod);
 }
