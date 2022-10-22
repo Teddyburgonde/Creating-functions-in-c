@@ -9,7 +9,7 @@ int	main(void)
 {
 	int	a;
 
-	a = 55;
+	a = 50;
 	printf("a ce stade a = %d\n", a);
 	ft_ft(&a);
 	printf("maintenant a = %d", a);
