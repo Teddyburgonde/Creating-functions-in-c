@@ -14,7 +14,7 @@ int	main(void)
 	int	a;
 	int	b;
 
-	a = 10;
+	a = 11;
 	b = 20;
 	printf("La valeur de a = %d et b = %d\n", a, b);
 	ft_swap(&a, &b);
