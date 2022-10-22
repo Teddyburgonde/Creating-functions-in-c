@@ -4,7 +4,7 @@ int	main(void)
 {
 	char	centaine;
 	char	dizaine;
-	char	unite;
+	char	unit;
 
 	centaine = '0';
 	while (centaine < '7')
@@ -12,14 +12,14 @@ int	main(void)
 		dizaine = centaine + 1;
 		while (dizaine < '9')
 		{
-			unite = dizaine + 1;
-			while (unite <= '9')
+			unit = dizaine + 1;
+			while (unit <= '9')
 			{
 				write(1, &centaine, 1);
 				write(1, &dizaine, 1);
-				write(1, &unite, 1);
+				write(1, &unit, 1);
 				write(1, ",", 1);
-			unite++;
+			unit++;
 			}
 		dizaine++;
 		}
