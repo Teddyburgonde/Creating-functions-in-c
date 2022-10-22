@@ -5,8 +5,8 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-int	main()
+int	main(void)
 {
-	char	c = 'z';
+	char	c = 'a';
 	ft_putchar(c);
 }
