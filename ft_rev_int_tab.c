@@ -20,13 +20,12 @@ void	ft_rev_int_tab(int *tab, int size)
 
 int	main(void)
 {
-	int	nombre[];
 	int	size;
 	int	i;
 
-	nombre = {1, 2, 3, 4, 5, 6, 7};
-	size = 7;
+	size = 8;
 	i = 0;
+	int	nombre[] = {1, 2, 3, 4, 5, 6, 7, 8};
 	ft_rev_int_tab(nombre, size);
 	while (i < size)
 	{	
