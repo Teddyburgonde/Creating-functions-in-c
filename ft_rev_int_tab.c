@@ -1,8 +1,16 @@
 #include <stdio.h>
 
-void	ft_rev_int_tab(int *tab, int size)
+void	ft_swap(int *a, int *b)
 {
 	int	tmp;
+
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
+
+void	ft_rev_int_tab(int *tab, int size)
+{
 	int	i;
 	int	j;
 
@@ -10,9 +18,7 @@ void	ft_rev_int_tab(int *tab, int size)
 	j = size - 1;
 	while (i < j)
 	{
-		tmp = tab[i];
-		tab[i] = tab[j];
-		tab[j] = tmp;
+		ft_swap(&tab[i], &tab[j]);
 		i++;
 		j--;
 	}
@@ -23,13 +29,14 @@ int	main(void)
 	int	size;
 	int	i;
 
-	size = 8;
 	i = 0;
-	int	nombre[] = {1, 2, 3, 4, 5, 6, 7, 8};
-	ft_rev_int_tab(nombre, size);
+	size = 8;
+	int chiffre[] = {1, 2, 3, 4, 5, 6, 7, 8};
+
+	ft_rev_int_tab(chiffre, size);
 	while (i < size)
-	{	
-		printf("%d", nombre[i]);
+	{
+		printf("%d", chiffre[i]);
 		i++;
 	}
 }
